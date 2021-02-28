@@ -3,10 +3,13 @@
 
 int fib(int n)
 {
-    if (n < 2)
-        return n;
-    else
-        return fib(n - 1) + fib(n - 2);
+    long int i = 0;
+    long int j = 1;
+  for(int k = 1; k < n; k++){
+    j = i+j;
+    i = j-i;
+  }
+  return j;
 }
 
 int main()
