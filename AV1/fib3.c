@@ -1,24 +1,20 @@
 #include <stdio.h>
 #include <math.h>
 
-int ehPar(int num)
-{
+int ehPar(int num) {
     if (num % 2 == 0)
         return 1;
     return 0;
 }
 
-int main()
-{
-    int n = 49;
-    long t;
-    long i = 1, j = 0, k = 0, h = 1;
+int main() {
+    int n = 92;
+    long double t;
+    long double i = 1, j = 0, k = 0, h = 1;
 
-    while (n > 0)
-    {
+    while (n > 0) {
         //printf("===========init loop %i\n", n);
-        if (!ehPar(n))
-        {
+        if (!ehPar(n)) {
             //printf("===init impar\n");
             t = j * h;
             //printf("t:%li\n", t);
@@ -38,7 +34,7 @@ int main()
         n = n / 2;
     }
 
-    printf("%li", j);
+    printf("%0.Lf\n", j);
     //Esperado 433494437
 
     return j;
