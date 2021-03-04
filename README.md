@@ -15,7 +15,7 @@
   ./nome_do_arquivo.out
   ```
 
-### Exemplo
+#### Exemplo
 Para executar o arquivo fib1.c, faça:
   ```
   gcc fib1.c -o fib1.out 
@@ -24,3 +24,7 @@ Para executar o arquivo fib1.c, faça:
   ```
   ./fib1.out
   ```
+
+### Roteiro de apresentação
+
+  https://docs.google.com/document/d/1y11qhxGHbB9tpCSE0kJbDxe8IAYzeSG8DxDWFUcPhsI/edit?usp=sharing
