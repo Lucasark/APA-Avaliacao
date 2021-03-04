@@ -24,7 +24,15 @@ Para executar o arquivo fib1.c, faça:
   ```
   ./fib1.out
   ```
-
+#
 ### Roteiro de apresentação
 
   https://docs.google.com/document/d/1y11qhxGHbB9tpCSE0kJbDxe8IAYzeSG8DxDWFUcPhsI/edit?usp=sharing
+#
+### Amostra de dados
+
+  https://docs.google.com/spreadsheets/d/18qzO7GPRZEUSBf9hdOBd0IXX41Cddtq7F1TPC9RnrmY/edit?usp=sharing
+  
+![](assets/graph-fib1.png)
+# 
+![](assets/graph-fib2.png)
